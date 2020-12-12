@@ -1,0 +1,58 @@
+[2020-12-12 18:52:25,762] - [INFO] - Connecting to amqp://admin:admin@localhost:5672/
+[2020-12-12 18:52:25,838] - [INFO] - Connection opened
+[2020-12-12 18:52:25,839] - [INFO] - Creating a new channel
+[2020-12-12 18:52:25,841] - [INFO] - Channel opened
+[2020-12-12 18:52:25,842] - [DEBUG] - Adding channel close callback
+[2020-12-12 18:52:25,842] - [INFO] - Declaring exchange: message
+[2020-12-12 18:52:25,844] - [INFO] - Exchange declared: message
+[2020-12-12 18:52:25,844] - [INFO] - Declaring queue ha_ops_smsc_api_client
+[2020-12-12 18:52:25,851] - [INFO] - Binding message to ha_ops_smsc_api_client with ha_ops_smsc_api_client
+[2020-12-12 18:52:25,863] - [DEBUG] - Queue bound: ha_ops_smsc_api_client
+[2020-12-12 18:52:25,865] - [DEBUG] - QOS set to: 16
+[2020-12-12 18:52:25,865] - [DEBUG] - Issuing consumer related RPC commands
+[2020-12-12 18:52:25,865] - [DEBUG] - Adding consumer cancellation callback
+[2020-12-12 18:53:21,681] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:21,681] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:21,682] - [DEBUG] - Acknowledging message 1
+[2020-12-12 18:53:32,677] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:32,677] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:32,678] - [DEBUG] - Acknowledging message 2
+[2020-12-12 18:53:32,835] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:32,835] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:32,836] - [DEBUG] - Acknowledging message 3
+[2020-12-12 18:53:32,962] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:32,963] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:32,964] - [DEBUG] - Acknowledging message 4
+[2020-12-12 18:53:33,106] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,107] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,107] - [DEBUG] - Acknowledging message 5
+[2020-12-12 18:53:33,250] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,251] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,251] - [DEBUG] - Acknowledging message 6
+[2020-12-12 18:53:33,394] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,394] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,395] - [DEBUG] - Acknowledging message 7
+[2020-12-12 18:53:33,540] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,541] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,542] - [DEBUG] - Acknowledging message 8
+[2020-12-12 18:53:33,685] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,686] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,687] - [DEBUG] - Acknowledging message 9
+[2020-12-12 18:53:33,828] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,829] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,829] - [DEBUG] - Acknowledging message 10
+[2020-12-12 18:53:33,972] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:33,973] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:33,973] - [DEBUG] - Acknowledging message 11
+[2020-12-12 18:53:34,117] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:34,117] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:34,118] - [DEBUG] - Acknowledging message 12
+[2020-12-12 18:53:34,260] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:34,261] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:34,262] - [DEBUG] - Acknowledging message 13
+[2020-12-12 18:53:34,420] - [INFO] - <BasicProperties(['correlation_id=12345', 'delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:34,421] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:34,421] - [DEBUG] - Acknowledging message 14
+[2020-12-12 18:53:39,381] - [INFO] - <BasicProperties(['delivery_mode=1', 'headers={}'])>
+[2020-12-12 18:53:39,382] - [INFO] - b'{\r\n"name" : "landeptrai",\r\n"age" : 16\r\n}'
+[2020-12-12 18:53:39,382] - [DEBUG] - Acknowledging message 15
